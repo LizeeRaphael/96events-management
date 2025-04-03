@@ -1,0 +1,190 @@
+<!-- <?php
+include("connect.php")
+?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact 96 Events Pro</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  
+
+    <style>
+      .navbar  {
+        margin-bottom: 0;
+        border-radius: 0;
+        background-color: rgb(2, 0, 2);
+        color: #FFF;
+        padding:1% 0;
+        font-size: 1.2em;
+        border: 0;
+        width: 80%;
+        float: right;
+      margin-top:35px;
+      height: 100%;
+        
+      }
+     
+      .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+      .navbar-inverse .navbar-nav .active li:hover {
+        color:rgb(199, 197, 197);
+        background-color: rgb(10, 0, 10);
+      
+      }
+      .navbar-brand{
+
+  float: left;    
+    min-height: 55px;
+    padding: 0 15px 5px;
+  
+      }
+     
+      
+    
+      .navbar-inverse .navbar-nav li a {
+        color: #D5D5D5;
+      }
+      .fa{
+        font-size: 20px;
+    
+      }
+     .contact{
+         color: white;
+         text-align: center;
+         padding-top: 20%;
+         font-family: fantasy;
+         
+     }
+     .container{
+     color: white;
+     text-align: center;
+     
+     box-shadow: 0 0 50px rgb(124, 122, 122);
+     padding: 60px;
+     }
+     .plan{
+       color: goldenrod;
+       font-size: 50px;
+       font-family: fantasy;
+       padding: 25px;
+     }
+     .contact-1{
+       color: goldenrod;
+       font-size: 20px;
+       font-family: sans-serif;
+     }
+     .contact-2{
+       color: rgb(250, 248, 244);
+       font-family:'Gill Sans';
+       font-size: 20px;
+     }
+     #input{
+       border: 0;
+       padding: 50px;
+       background-color:#D5D5D5;
+       color: rgb(8, 8, 8);
+       padding-left: 20px;
+       border-radius: 10px;
+       width: 50%;
+     }
+     
+     .email{
+       padding: 15px;
+       background-color: #b8abab;
+       color: black;
+     }
+    .submit{
+      background-color: goldenrod;
+      color: black;
+      padding: 15px;
+      border: 0;
+    }
+    .submit:hover{
+      background-color: black;
+      color: goldenrod;
+      border-radius: 10px;
+    } 
+    .top{
+      font-size: 15px;
+      padding-left: 50%;
+    }
+     #footer{
+            color: #b8abab;
+            text-align: center;
+            margin-top: 10%;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+      </style>
+
+</head>
+<body><a name="top" class="top"></a>
+  <nav class="navbar navbar-inverse">
+    <a class="navbar-brand" href="#"><img src="images/cleartrip-logo.png" width="100px"></a>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+          <li class="active"><a href="services.html">Services</a></li>
+          <li class="active"><a href="#contact">Contact</a></li>
+          <li class="active"><a href="#"></i>  <i class="fa fa-facebook"></i></a></li>
+          <li class="active"><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li class="active"><a href="#"> <i class="fa fa-twitter"></i></a></li>
+      
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="contact"><h1>Contact us</h1></div>
+
+  <div class="container"><text class="plan">Let's Plan Your Events</text><br><br>
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+         <div class="card">
+            <text class="contact-1">Phone</text><br><br>
+              <text class=" contact-2">00000000000000</text>
+         </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+       <text class="contact-1">Office Address</text><br><br>
+        <text class="contact-2">Lorem ipsum dolor sit, optio accusantium a earum minima, officia architecto et iure corrupti eos eaque illum, fuga ex? Esse cumque inventore repellendus nobis?</text>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <text class="contact-1">Mail</text><br><br>
+         <text class="contact-2">info@....mail.com</text>
+       </div>
+    </div><br><br><br>
+    
+     <textarea name="input" id="input" cols="30" rows="10"></textarea ><br>
+      <text class="message">Leave us a message...</text><br><br>
+    <input type="email" placeholder="Your Email" class="email"><button type="submit" class="submit" name="submit">Submit</button>
+
+    </div>
+    
+
+<br><br>
+<a href="#top" class="top">Back to top</a>
+ 
+<footer id="footer">
+  Created by Lizee &copy; All rights reserved
+</footer>
+
+</body>
+</html>
